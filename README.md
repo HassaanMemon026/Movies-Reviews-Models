@@ -100,9 +100,13 @@ streamlit run app.py --server.port 8502
 ```
 
 ## Screenshots
-Add your UI screenshots here:
-- `ScreenShorts/Screenshot 2026-02-13 015803.png`
-- `ScreenShorts/Screenshot 2026-02-13 015841.png`
+UI screenshots:
+
+##### Home / Input Screen
+![Home Screen](ScreenShorts/Screenshot1.png)
+
+##### Prediction Result Screen
+![Prediction Screen](ScreenShorts/Screenshot2.png)
 
 ## Notes
 - In the notebook, the Random Forest export line currently saves `dt_model` to `random_forest_imdb_model.pkl`. Update that line to `joblib.dump(rf_model, ...)` when retraining to avoid artifact mismatch.
@@ -118,5 +122,6 @@ Add your UI screenshots here:
 
 ## GitHub Short Description (Suggested)
 **Streamlit-based IMDb movie review sentiment analysis app using TF-IDF + Logistic Regression, Naive Bayes, Decision Tree, and Random Forest models.**
+
 
 
